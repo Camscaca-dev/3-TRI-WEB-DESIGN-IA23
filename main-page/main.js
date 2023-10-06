@@ -58,3 +58,11 @@ bolinha[0].checked = true;
 mudarCorDaBolinha(0);
 const novaSrc = 'img/1.png';
 imagem.src = novaSrc;
+
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('nav');
+
+button.addEventListener('click', () => {
+    button.classList.toggle('active');
+    nav.classList.toggle('active');
+});
