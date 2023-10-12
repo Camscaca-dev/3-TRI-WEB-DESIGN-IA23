@@ -61,8 +61,10 @@ imagem.src = novaSrc;
 
 const button = document.querySelector('.menu-button');
 const nav = document.querySelector('nav');
+const icon = document.querySelector('.icon');
 
 button.addEventListener('click', () => {
     button.classList.toggle('active');
     nav.classList.toggle('active');
+    icon.classList.toggle('active');
 });
